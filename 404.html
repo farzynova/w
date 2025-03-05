@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>404 - Page Not Found</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .error-container {
+      text-align: center;
+      padding: 2rem;
+    }
+    
+    .error-code {
+      font-size: 6rem;
+      margin: 0;
+      animation: flicker 5s infinite var(--custom-flicker) alternate;
+      color: var(--button-color);
+    }
+    
+    .error-message {
+      font-size: 1.5rem;
+      margin: 1rem 0;
+      color: white;
+    }
+    
+    .home-button {
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="content-container error-container">
+    <h1 class="error-code">404</h1>
+    <p class="error-message">Oops! The page you're looking for has drifted into space.</p>
+    <a href="index.html" class="button home-button" aria-label="Return to homepage">Return Home</a>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
